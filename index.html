@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lobster&display=swap" rel="stylesheet">
+
+    <title>Encriptador</title>
+</head>
+<body> 
+    <header>
+        <img src="Imagenes/logo.png" alt="Candado de código" class="logo">
+        <img src="Imagenes/Vector.png" alt="Logo de alura" class="logo-alura-top">
+    </header>
+    <main>
+        <section clas="seccion-1">
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion"> <img src="Imagenes/simbolo.png" alt="atención"> Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="seccion-2">
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="rodapie">
+        <p>Proyecto para portafolio profesional de Lorena del Rocio Vargas Curiel - Enero de 2023</p>
+        <a href="https://github.com/Lorena-Vargas" target="_blank"><img src="Imagenes/github.png" alt="Logo GitHub" class="git"></a>
+        <a href="https://www.linkedin.com/in/lorena-vargas91/" target="_blank"><img src="Imagenes/linkedin.png" alt="Logo Linkedin" class="linkedin"></a>
+        <img src="Imagenes/one_logo.png" alt="Logo ONE" class="one">
+        <img src="Imagenes/Vector.png" alt="Logo de Alura" class="alura">
+        </section>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+*{
+    background: #fab906;
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 40px;
+    width: 250px;
+    height: 220px;
+    top: 73.42px;
+    border-radius: 45px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color:#0A3871;
+    margin-top: 40px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871}
+.text-area:focus {
+    outline: none;
+}
+
+.mensaje{
+    background: bisque;
+    background-image: url("Imagenes/mensaje.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.informacion {
+    color: #495057;
+    font-size: 18px;
+    margin-bottom: 270px;
+    margin-top: -67px;
+}
+
+.botones{
+    display: flex;
+    margin-top: -236px;
+}
+
+.btn-encriptar {
+    background-color: brown;
+    border: 1px solid orange;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-desencriptar {
+    background-color: orange;
+    border: 1px solid brown;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.copiar {
+    border: 1px solid brown;
+    background-color: khaki;
+    border-radius: 24px;
+    cursor: pointer;
+    color: chocolate;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 10px;
+    position:absolute;
+    width: 336px;
+}
+
+.footer {
+    background: goldenrod;
+    margin-top: 140px;
+}
+
+.rodapie{
+    text-align: center;
+    font-size: 10px;
+}
+
+p {
+    font-size: 14px;    
+}
+.git{
+    height: 50px;
+}
+
+.linkedin{
+    height: 50px;
+}
+
+.one{
+    height: 50px;
+}
+
+.logo-alura-top{
+    margin-left: 957px;
+    margin-bottom: 180px;
+}
